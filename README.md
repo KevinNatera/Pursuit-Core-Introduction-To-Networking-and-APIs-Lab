@@ -10,6 +10,7 @@ Use Postman to find each of the following HTTP codes:
 1. 200
 
 a. google.com
+
 b. The connection to the website was successful.
 c. N/A
 

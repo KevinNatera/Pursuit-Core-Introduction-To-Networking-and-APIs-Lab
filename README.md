@@ -12,48 +12,70 @@ Use Postman to find each of the following HTTP codes:
 a. google.com
 
 b. The connection to the website was successful.
+
 c. N/A
+
 
 2. 301
 
 a. https://httpstat.us/301
+
 b. The website's url has changed, and you should access the website by entering the correct one.
+
 c. I'd change the old url to the updated url that the error page contains.
+
 
 3. 400
 
 a.  https://httpstat.us/400
+
 b.  The request was invalid due to either a syntax error or something else that went wrong.
+
 c.  The user would have to rectify this error by entering a valid request.
+
 
 4. 401
 
 a. https://httpstat.us/401
+
 b. The user does not have the credentials to access to the website.
+
 c.  I would make sure that I have the correct login information so that the authorization request is approved.
+
 
 5. 403
 
 a. https://httpstat.us/403
+
 b. The user submitted a valid request, but was denied access to the website for some reason.
+
 c.  I'd make sure that I actually have permission to access the website in addition to the correct login information to avoid this error.
+
 
 6. 404
 
 a. https://httpstat.us/404
+
 b. The requested resource could not be found.
+
 c. I'd make sure that all of my syntax is correct when entering the website url.
+
 
 7. 418
 
 a. https://httpstat.us/418
+
 b. An April Fool's joke that isn't actually implemented by HTTP Servers, other than as an Easter Egg by websites such as google.com
+
 c. I would rewrite the code that is accessing this Easter Egg, most likely by fixing a simple syntax error.
+
 
 8. 500
 
 a. https://httpstat.us/500
+
 b. There was a problem on the server's side
+
 c. I'd try to use the website again, and use a different one if the problem persists.
 
 
@@ -79,14 +101,17 @@ For each of the questions below, identify a website and search query that will g
 1. A random cat fact
 
 URL: https://catfact.ninja/fact
+
 JSON: {
 "fact": "Cats lap liquid from the underside of their tongue, not from the top.",
 "length": 69
 }
 
+
 2. A list of 150 random users in English.
 
 URL: https://api.randomuser.me/
+
 JSON: {
 "results": [
 {
@@ -150,9 +175,11 @@ JSON: {
 }
 }
 
+
 3. The current stock price of Microsoft. (IEX API)
 
 URL: https://cloud.iexapis.com/stable/stock/MSFT/quote
+
 JSON: {
 symbol: "MSFT",
 companyName: "Microsoft Corp.",
@@ -199,9 +226,11 @@ lastTradeTime: 1566849407072,
 isUSMarketOpen: false
 }
 
+
 4. The 5 year history of Apple stock prices (IEX API)
 
 URL: https://sandbox.iexapis.com/stable/stock/AAPL/chart/5y
+
 JSON: [
 {
 date: "2014-08-25",
@@ -239,12 +268,14 @@ changeOverTime: -0.006669
 }
 ]
 
+
 5. All the Swift language repos on Github with Pursuit in their name
 
 
 6. A list of all Pokemon
 
 URL: https://pokeapi.co/api/v2/pokemon/
+
 JSON: {
 count: 964,
 next: "https://pokeapi.co/api/v2/pokemon/?offset=20&limit=20",
@@ -299,11 +330,13 @@ url: "https://pokeapi.co/api/v2/pokemon/9/"
 9. A list of all songs with "Love" in the title.
 
 URL: https://itunes.apple.com/search?term=love
+
 JSON: {
 "resultCount":50,
 "results": [
 {"wrapperType":"track", "kind":"song", "artistId":42616562, "collectionId":715579496, "trackId":715581836, "artistName":"Nat \"King\" Cole", "collectionName":"Nat King Cole", "trackName":"L-O-V-E", "collectionCensoredName":"Nat King Cole", "trackCensoredName":"L-O-V-E", "artistViewUrl":"https://music.apple.com/us/artist/nat-king-cole/42616562?uo=4", "collectionViewUrl":"https://music.apple.com/us/album/l-o-v-e/715579496?i=715581836&uo=4", "trackViewUrl":"https://music.apple.com/us/album/l-o-v-e/715579496?i=715581836&uo=4", 
 "previewUrl":"https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview71/v4/42/6a/a3/426aa324-78dd-8667-2869-dbfbb469e983/mzaf_5521623155491639858.plus.aac.p.m4a", "artworkUrl30":"https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/50/b7/55/50b755d1-2721-ef0e-6898-c33d16be37f9/source/30x30bb.jpg", "artworkUrl60":"https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/50/b7/55/50b755d1-2721-ef0e-6898-c33d16be37f9/source/60x60bb.jpg", "artworkUrl100":"https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/50/b7/55/50b755d1-2721-ef0e-6898-c33d16be37f9/source/100x100bb.jpg", "collectionPrice":39.99, "trackPrice":1.29, "releaseDate":"1992-11-02T12:00:00Z", "collectionExplicitness":"notExplicit", "trackExplicitness":"notExplicit", "discCount":4, "discNumber":4, "trackCount":24, "trackNumber":24, "trackTimeMillis":152533, "country":"USA", "currency":"USD", "primaryGenreName":"Jazz", "isStreamable":true}
+
 
 10. All information about Petyr Baelish from the Game of Thrones books
 
